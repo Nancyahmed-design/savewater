@@ -21,9 +21,6 @@
     justify-content: space-between;
     
 }
-
-   
-
   .topnav {
     overflow: hidden;
     background-color: transparent;
@@ -45,6 +42,8 @@
   .topnav a:hover {
     background-color: #006994;
     color: white;
+    border-radius: 12px;
+    transition: 0.3s;
   }
 
   .home-paragph{
@@ -54,9 +53,8 @@
       font-weight: bold;
       color: white;
       transform: translate(100px,-175px);
-    
   }
-  button{
+  .btn{
     /* align-self: center; */
     background-color: Transparent;
     border: 0.5px solid white;
@@ -72,10 +70,9 @@
     transition-duration: 0.4s;
     cursor: pointer;
     /* transform: translate(600px,-180px); */
-    
   }
   
-  button:hover {
+  .btn:hover {
     background-color: #006994;
     color: white;
   }
